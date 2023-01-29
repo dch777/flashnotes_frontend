@@ -6,9 +6,22 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.13",
+    "axios": "^1.2.6",
+    "dotenv": "^16.0.3",
+    "draft-js": "^0.11.7",
+    "fs": "^0.0.1-security",
+    "js-sha256": "^0.9.0",
+    "openai": "^3.1.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "postcss": "^8.4.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.8.0",
     "react-scripts": "5.0.1",
+    "tailwindcss": "^3.2.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +47,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy2": "http://localhost:5000",
+  "proxy": "http://flashnotes-env.eba-3ky2scpq.us-east-1.elasticbeanstalk.com/"
 }
